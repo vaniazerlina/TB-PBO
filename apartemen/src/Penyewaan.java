@@ -94,7 +94,7 @@ public class Penyewaan extends Kamar {
         }
         // exception SQL
         catch (SQLException e) {
-            System.err.println("Pemesanan Berhasil");
+            System.err.println("Pemesanan Kamar Gagal");
         }
 
         // exception input tidak sesuai data
